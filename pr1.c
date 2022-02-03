@@ -1,1 +1,1 @@
-program
+#include<stdio.h>
