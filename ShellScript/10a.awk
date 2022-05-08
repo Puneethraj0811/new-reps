@@ -1,5 +1,3 @@
-#Write an awkscript that accepts date argument in the form of dd-mm-yy and display it in the form month, day and year. The script should check the validity of the argument and in the case of error, display a suitable message.
-
 BEGIN {
 	OFS=" "
 }
