@@ -19,8 +19,9 @@ then
 				minute=`expr $minutes + ($minutes*(-2))`
 			fi
 			echo The user `whoami` working time is $hours hours $minutes minutes
-		else
-			echo $user not loggedin
+		fi
+	else
+		echo $user not loggedin
 	fi
 else
 	echo $user does not exist
