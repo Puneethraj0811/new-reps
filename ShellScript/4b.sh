@@ -1,4 +1,4 @@
-if [ $# -ge 0 ]
+if [ $# -ge 1 ]
 then	
 	if [ $# -eq 2 ]
 	then
@@ -6,10 +6,10 @@ then
 	else
 		chd=.
 	fi
-	file=`find ~ -iname $1`
+	file=`find $chd -iname $1`
 	if [ `echo $file | wc -c` -gt 1 ]
 	then 
-		number=`ls -inum $file | grep -0 [0-9]`
+		number=`ls -inum $file | grep -0 ^[0-9]*`
 		cd $chd
 		find . -inum $number
 	else
