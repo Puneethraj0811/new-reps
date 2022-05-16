@@ -1,5 +1,6 @@
 #Write a shell script which accepts valid log-in names as arguments and prints their corresponding home directories, if no arguments are specified, 
 #print a suitable error message.
+
 if [ $# -eq 1 ]
 then
 	grep $1 /etc/passwd>ud
