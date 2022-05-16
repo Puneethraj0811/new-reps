@@ -1,3 +1,5 @@
+#Write a shell script that determine the period for which as specified user is working on a system and display appropriate message.
+
 if [ $# -eq 1 ]
 then 
 	user=`who | grep -woi "$1"`
