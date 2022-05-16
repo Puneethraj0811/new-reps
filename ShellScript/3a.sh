@@ -1,5 +1,4 @@
-#Create a script file called file properties that reads a filename entered and outputs it
-#properties.
+#Create a script file called file properties that reads a filename entered and outputs it properties.
 
 if [ -e $1 ]
 then 
