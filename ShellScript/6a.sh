@@ -1,5 +1,5 @@
-#Write s a shell script to find a file/s that matches a pattern given as command line argument in the home directory, display the contents of the 
-#file and copy the file into the directory ~/mydir.
+#Write s a shell script to find a file/s that matches a pattern given as command line argument in the home directory, display the 
+#contents of the file and copy the file into the directory ~/mydir.
 
 if [ $# -eq 1 ]
 then
