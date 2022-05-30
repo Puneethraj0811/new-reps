@@ -7,7 +7,6 @@ hr=$4
 echo User Login time $hr
 set -- `echo $hr | tr ":" " "`
 h=$1
-m=$2
 if [ $h -ge 4 ] && [ $h -lt 12 ]
 then
 	echo Good morning Mr./Mrs. $user
